@@ -1,4 +1,4 @@
-# 🎄 Christmas Clock — Arduino Nano Restoration
+#  Christmas Clock — Arduino Nano Restoration
 
 > A broken vintage Christmas decoration brought back to life with
 > an Arduino Nano, featuring a rotating base, holiday melodies,
@@ -14,7 +14,7 @@ every 3 minutes while spinning its base in sync with the melody.
 
 ---
 
-## 🎯 The Problem
+##  The Problem
 
 The original ornament had four issues:
 
@@ -29,7 +29,7 @@ The original ornament had four issues:
 
 ---
 
-## ✅ The Solution
+##  The Solution
 
 | Problem | Fix |
 |---------|-----|
@@ -41,7 +41,7 @@ The original ornament had four issues:
 
 ---
 
-## 🎵 Features
+##  Features
 
 - Rotating base spins continuously
 - Every 3 minutes plays **"We Wish You a Merry Christmas"**
@@ -51,7 +51,7 @@ The original ornament had four issues:
 
 ---
 
-## 🔧 Components
+## Components
 
 | Component | Qty | Purpose |
 |-----------|-----|---------|
@@ -70,27 +70,19 @@ The original ornament had four issues:
 
 ---
 
-## 📐 Circuit Diagram
+## Circuit Diagram
 
-![Circuit Diagram](diagrama/tinkercad_diagram.png)
-
-> Full interactive circuit available on Tinkercad: [link here]
+<img width="1158" height="649" alt="trloj navidad" src="https://github.com/user-attachments/assets/ab73bb1e-7df1-4694-bdfa-21afe2a1a938" />
 
 ---
 
-## 📸 Photos
+##  Photos
+<img width="1200" height="1600" alt="44fdeb18-0eed-41c4-9b6e-53e59f34c12e" src="https://github.com/user-attachments/assets/c808a9c7-bfcb-4981-bbe1-cc200e4e2af9" />
+<img width="1600" height="1200" alt="2dce2429-2696-46ff-a61e-1bc6c6d30448" src="https://github.com/user-attachments/assets/9f857c31-5dc3-4de1-894d-cee3f6c3f721" />
+<img width="1600" height="1200" alt="37e4ddae-b38e-411b-9915-d9b02938667a" src="https://github.com/user-attachments/assets/fef91371-9ac6-4a4b-9f7b-4206a90242df" />
 
-| Original interior | Motor | Rotating base |
-|-------------------|-------|---------------|
-| ![](fotos/interior.jpg) | ![](fotos/motor.jpg) | ![](fotos/base.jpg) |
 
-| Burned solder joint | PCB board | Finished |
-|---------------------|-----------|----------|
-| ![](fotos/solder.jpg) | ![](fotos/pcb.jpg) | ![](fotos/finished.jpg) |
-
----
-
-## 💻 Code
+## Code
 
 // =============================================
 //   Reloj Navideño - Arduino Nano
@@ -279,7 +271,7 @@ const unsigned long INTERVALO = 180000UL;
 
 ---
 
-## ⚠️ Important Notes
+##  Important Notes
 
 - The **100µF electrolytic capacitor** has polarity —
   the stripe marks the negative leg, always connect it to GND
@@ -295,15 +287,10 @@ const unsigned long INTERVALO = 180000UL;
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 - Arduino IDE 2.x
 - Tinkercad (circuit diagram)
 - Soldering iron + solder + flux
 - Multimeter
 - Hot glue gun (motor to platform)
-
----
-
-## 📁 Repository Structure
-<img width="1158" height="649" alt="trloj navidad" src="https://github.com/user-attachments/assets/ab73bb1e-7df1-4694-bdfa-21afe2a1a938" />
